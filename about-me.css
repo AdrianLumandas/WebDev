@@ -1,0 +1,127 @@
+* {
+    font-family: 'Lugrasimo', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;                                     
+}
+
+body {
+    background-color: #e8f0f7;
+    padding-top: 70px;
+}
+
+header img{
+    margin-top: 10px;
+    height: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    background-color: rgb(19,22,26);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-link{
+    color: rgba(255,255,255,0.75);
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255, 1);
+}
+
+.btn{
+    color: white;
+    background-color: #86a4c1;
+    padding: 7px 18px;
+    border-radius: 1000px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: #86a4c193;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 40px;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    animation: 0.5s ease-in  normal forwards 1 slideInLeft;
+}
+
+.background{
+    width: 100vw;
+    height: 90vh;
+    background-color: #e8f0f7;
+}
+
+.container{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+
+}
+
+.about-me-image{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutme-text{
+    width: 55%;
+    height: 40%;
+    background-color: #86a4c1;
+    padding: 30px;
+    letter-spacing: 0.5;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.nawng{
+    height: 400px;
+    border-radius: 20px;
+    width: auto;
+}
+
+
+.logo2{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}

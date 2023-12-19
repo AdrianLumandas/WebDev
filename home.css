@@ -1,0 +1,131 @@
+* {
+    font-family: 'Lugrasimo', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;       
+    overflow: hidden;                              
+}
+
+body {
+    padding-top: 70px;
+}
+
+header img{
+    margin-top: 10px;
+    height: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    background-color: rgb(19,22,26);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-link{
+    color: rgba(255,255,255,0.75);
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255, 1);
+}
+
+.btn{
+    color: white;
+    background-color: #86a4c1;
+    padding: 7px 18px;
+    border-radius: 1000px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: #86a4c193;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 40px;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    animation: 0.5s ease-in  normal forwards 1 slideInLeft;
+}
+
+.background{
+    height: 90vh;
+    width: 100vw;
+    background-image: url(https://retaildesignblog.net/wp-content/uploads/2012/03/Bread-Butter-Berlin-2012-FRUIT-OF-THE-LOOM-08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 50%;
+    height: 100%;
+    
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 37%;
+    height: 230px;
+    background-color: rgba(57, 55, 55, 0.778);
+    margin: 5px 20px;
+    border-radius: 10px;
+}
+
+.card:hover{
+    scale: 1.12;
+    transition: 0.5s;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-image{
+    width: 100%;
+    height: 80%;
+    background-color: #86a4c1;
+}
+
+.card-price{
+    text-align: center;
+}
+
+.card-price{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
